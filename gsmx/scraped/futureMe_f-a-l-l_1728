@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>fall - DesignersMX by 123512974</title><link type="text/css" rel="stylesheet" href="https://d2b1xqaw2ss8na.cloudfront.net/static/css/jquery.jscrollpane28.css" /><link type="text/css" rel="stylesheet" href="https://d2b1xqaw2ss8na.cloudfront.net/static/css/main28.css" /><link type="text/css" rel="stylesheet" href="https://d2b1xqaw2ss8na.cloudfront.net/static/css/maindesk28.css" />
+</head>
+<body class="ab-control playlist view-list black">
+	<div id="outerWidgetContainer">
+	<div id="widgetContainer">
+	<div id="notifBar">
+	<p id="message"></p>
+	<div class="notifCloseButton"></div>
+</div><div class="player music-paused">
+	<div class="album-art-container clickable">
+		<div class="album-art">
+			<img class="art" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" index="-1"/>
+			<div class="clickable play-pause-btn"></div>
+		</div>
+	</div>
+	<div class="divider"></div>
+	<div class="meta">
+		<div class="titles">
+			<div class="track-name ellipsis" onClick="openContextInSpotify();">
+				mainTitle
+			</div>
+			<div class="artist-name ellipsis" rel="123512974">
+				subTitle
+			</div>
+		</div>
+		<div class="right-bar-buttons">
+			<div class="action-buttons-container">
+				<div class="embed"/></div>
+				<div class="list"/></div>
+			</div>
+		</div>
+		<div class="progress-bar-container">
+			<div class="controls">
+				<div class="skip-back clickable"></div>
+				<div class="buffer">
+					<div class="seeker"></div>
+				</div>
+				<div class="skip-fwd clickable"></div>
+				<div class="time-spent">3:41</div>
+			</div>
+			<div class="context-title">
+				<div class="type-icon"></div>
+				<div class="title-content ellipsis">fall - DesignersMX</div>
+			</div>
+		</div>
+	</div>
+	<div class="logo clickable"></div>
+</div><div id="mainContainer" class="main-container"> 
+	<ul id="content" class="content">
+		<li class="track-4jhdcYyWYx6d60j60OQDCa music-paused item playlist" rel="track" data-track="4jhdcYyWYx6d60j60OQDCa" data-duration="3:57" data-duration-ms="237000" data-index="0" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/db1e136ed412c71ece4389a3a014817b3a268112">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="3:57">3:57</li>
+		<li class="track-title 4jhdcYyWYx6d60j60OQDCa ellipsis" rel="1. Kill For Love">1. Kill For Love</li>
+		<li class="artist 4jhdcYyWYx6d60j60OQDCa ellipsis" rel="Chromatics" style="">Chromatics</li>
+	</ul>
+</li><li class="track-7MyRaksGkIdT7qYQXpwxU2 music-paused item playlist" rel="track" data-track="7MyRaksGkIdT7qYQXpwxU2" data-duration="2:31" data-duration-ms="151040" data-index="1" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/ffec86a57aa54abbec7e7255b9cefba8d24026e8">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="2:31">2:31</li>
+		<li class="track-title 7MyRaksGkIdT7qYQXpwxU2 ellipsis" rel="2. I Wanted You To Feel The Same">2. I Wanted You To Feel The Same</li>
+		<li class="artist 7MyRaksGkIdT7qYQXpwxU2 ellipsis" rel="The Radio Dept." style="">The Radio Dept.</li>
+	</ul>
+</li><li class="track-6LlgLXd7UrxGGX7uwOEKV8 music-paused item playlist" rel="track" data-track="6LlgLXd7UrxGGX7uwOEKV8" data-duration="3:33" data-duration-ms="213000" data-index="2" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/c6335796f49841403644870f2467602159ed4ca6">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="3:33">3:33</li>
+		<li class="track-title 6LlgLXd7UrxGGX7uwOEKV8 ellipsis" rel="3. Inch of Dust">3. Inch of Dust</li>
+		<li class="artist 6LlgLXd7UrxGGX7uwOEKV8 ellipsis" rel="Future Islands" style="">Future Islands</li>
+	</ul>
+</li><li class="track-79JDpkcg2mpW5L5Db3zGUM music-paused item playlist" rel="track" data-track="79JDpkcg2mpW5L5Db3zGUM" data-duration="5:32" data-duration-ms="331880" data-index="3" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/f438e56fc5ed9df0dcd38d943f2158cbdddddb92">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="5:32">5:32</li>
+		<li class="track-title 79JDpkcg2mpW5L5Db3zGUM ellipsis" rel="4. Soft">4. Soft</li>
+		<li class="artist 79JDpkcg2mpW5L5Db3zGUM ellipsis" rel="Washed Out" style="">Washed Out</li>
+	</ul>
+</li><li class="track-5VvsZvy1mwx4teyvI7O9rs music-paused item playlist" rel="track" data-track="5VvsZvy1mwx4teyvI7O9rs" data-duration="4:11" data-duration-ms="251120" data-index="4" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/ff7aa31acce6a405615a21ad1e6b61b4f6052b9b">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:11">4:11</li>
+		<li class="track-title 5VvsZvy1mwx4teyvI7O9rs ellipsis" rel="5. Daniel">5. Daniel</li>
+		<li class="artist 5VvsZvy1mwx4teyvI7O9rs ellipsis" rel="Bat For Lashes" style="">Bat For Lashes</li>
+	</ul>
+</li><li class="track-2OI2jA6p1W75bPG7qzU4x4 music-paused item playlist" rel="track" data-track="2OI2jA6p1W75bPG7qzU4x4" data-duration="3:31" data-duration-ms="211000" data-index="5" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/932185b5ba002ca3ff92ae451b01258fa3aea0aa">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="3:31">3:31</li>
+		<li class="track-title 2OI2jA6p1W75bPG7qzU4x4 ellipsis" rel="6. Abby">6. Abby</li>
+		<li class="artist 2OI2jA6p1W75bPG7qzU4x4 ellipsis" rel="Tanlines" style="">Tanlines</li>
+	</ul>
+</li><li class="track-1AOk0pvjGX8ZMbH5OBkhq8 music-paused item playlist" rel="track" data-track="1AOk0pvjGX8ZMbH5OBkhq8" data-duration="4:28" data-duration-ms="267733" data-index="6" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/29addb83491d91857f699056fc29c0ba1c9b69ae">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:28">4:28</li>
+		<li class="track-title 1AOk0pvjGX8ZMbH5OBkhq8 ellipsis" rel="7. Ceremony [Alternate 12" Version]">7. Ceremony [Alternate 12" Version]</li>
+		<li class="artist 1AOk0pvjGX8ZMbH5OBkhq8 ellipsis" rel="New Order" style="">New Order</li>
+	</ul>
+</li><li class="track-7HPtL7UoftQYJ5YPmoXLDT music-paused item playlist" rel="track" data-track="7HPtL7UoftQYJ5YPmoXLDT" data-duration="5:40" data-duration-ms="339866" data-index="7" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/1e1750f0f69eddcc5fe466cbef5eea3023496dd2">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="5:40">5:40</li>
+		<li class="track-title 7HPtL7UoftQYJ5YPmoXLDT ellipsis" rel="8. Passage">8. Passage</li>
+		<li class="artist 7HPtL7UoftQYJ5YPmoXLDT ellipsis" rel="Exitmusic" style="">Exitmusic</li>
+	</ul>
+</li><li class="track-34nagZqn8Xuxu31uMx5zSS music-paused item playlist" rel="track" data-track="34nagZqn8Xuxu31uMx5zSS" data-duration="4:05" data-duration-ms="245013" data-index="8" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/b41d4214b62f46bfd07749009521661afd73144f">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:05">4:05</li>
+		<li class="track-title 34nagZqn8Xuxu31uMx5zSS ellipsis" rel="9. So Glad To See You">9. So Glad To See You</li>
+		<li class="artist 34nagZqn8Xuxu31uMx5zSS ellipsis" rel="Hot Chip" style="">Hot Chip</li>
+	</ul>
+</li><li class="track-60TcPPTsZfbt47pF3YuA3m music-paused item playlist" rel="track" data-track="60TcPPTsZfbt47pF3YuA3m" data-duration="4:19" data-duration-ms="259000" data-index="9" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/72c2715aa8b25e8490cb53138376a05ba96447cd">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:19">4:19</li>
+		<li class="track-title 60TcPPTsZfbt47pF3YuA3m ellipsis" rel="10. A Glorious Time">10. A Glorious Time</li>
+		<li class="artist 60TcPPTsZfbt47pF3YuA3m ellipsis" rel="Team Ghost" style="">Team Ghost</li>
+	</ul>
+</li>	</ul>
+</div><div id="engageView" class="music-paused">
+	<div class="shelf"></div>
+	<div class="scroller">
+		<div class="cover-art-container">
+			<div class="left">
+				<div class="album-art-container">
+					<img class="album-art fixed" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="album-art slide" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="contact-shadow" src=""/>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="album-art-container">
+					<img class="album-art fixed" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="album-art slide" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="contact-shadow" src=""/>
+					<img class="covergloss" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/covergloss.png" data-index="-1"/>
+				</div>
+			</div>
+			<div class="right">
+				<div class="album-art-container">
+					<img class="album-art fixed" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="album-art slide" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="contact-shadow" src=""/>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="overlays">
+	<div class="overlays-main-container">
+		<div class="overlay-close-button"></div>
+		<div class="overlays-container">
+			<div class="overlay-item-0 overlay-common">
+				<div class="overlay-title">Listen to millions of songs for free!</div>
+				<div class="install-step-button-container">
+					<div class="download-spotify primary-button">Download Spotify</div>
+					<div class="ihavespotify secondary-button">I have Spotify</div>
+				</div>
+				<div class="terms-and-conditions">By downloading Spotify, you agree to Spotify&#39;s <a href="#" class="tc-link">terms &amp; conditions</a> and  <a href="#" class="pp-link">privacy policy</a>.</div>
+			</div>
+			<div class="overlay-item-1 overlay-common">
+				<div class="overlay-title">Spotify failed to launch.</div>
+				<div class="install-step-button-container">
+					<div class="download-spotify primary-button">Download Spotify</div>
+					<div class="helpsupport secondary-button">Help/Support</div>
+				</div>
+				<div class="terms-and-conditions">By downloading Spotify, you agree to Spotify&#39;s <a href="#" class="tc-link">terms &amp; conditions</a> and  <a href="#" class="pp-link">privacy policy</a>.</div>
+			</div>
+			<div class="overlay-item-2 overlay-common">
+				<div style="margin-top:8px;">
+					<div class="embed-container">
+						<div class="overlay-title">Embed code:</div>
+						<div class="input-container"><input class="text-input" type="text" id="embedcodeval"/></div>
+					</div>
+					<div class="embed-container">
+						<div class="overlay-title">Get the link:</div>
+						<div class="input-container"><input class="text-input" type="text" id="copyLinkVal"/></div>
+					</div>
+					<div class="terms-and-conditions">By embedding you agree to the <a href="#" class="embed-tc-link">Terms</a>.</div>
+				</div>
+			</div>
+			<div class="overlay-item-3 overlay-common">
+				<div class="overlay-title">Sorry, we&#39;re not available where you are. Leave your email to stay tuned for good news.</div>
+				<div class="email-controls">
+					<div class="ihavespotify secondary-button">I have Spotify</div>
+					<input class="text-input-email" type="text" placeholder="johndoe@gmail.com"></input>
+					<div class="submitEmail primary-button">Send</div>
+				</div>
+				<div class="sadguy"></div>
+			</div>
+		</div>
+	</div>
+</div>	</div>
+	</div>
+	<script>
+		var context='spotify:user:123512974:playlist:6lLLYkjRdusoZGDsDJAKjy',
+			contextType = 'playlist',
+			dataContext = 'spotify:user:123512974:playlist:6lLLYkjRdusoZGDsDJAKjy',
+			tokenData = 'M1Nwb3RpZnkgIDY4NzE5NDc2NzM2IDEzNDg1MDM5MzQgMTM0ODUzMjczNCAAAHkoEOU9JWYIIuVyD9KmoGt7sws2',
+			isHandheldDevice = false,
+			renderListView = true,
+			theme = 'black',
+			testLeg = 'control',
+			defaultCoverImg = 'https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png',
+			shadowWhiteImg = 'https://d2b1xqaw2ss8na.cloudfront.net/static/img/Shadows.png',
+			shadowBlackImg = 'https://d2b1xqaw2ss8na.cloudfront.net/static/img/Shadows-Black.png',
+			spotifyAvailableInCountry = true,
+			frameReferrer = "http:\/\/designers.mx\/post\/detail\/futureMe\/f-a-l-l\/1728\/";
+		if( frameReferrer == '' ) {
+			frameReferrer = document.referrer || '';
+		}
+	</script>
+	<script src="https://d2b1xqaw2ss8na.cloudfront.net/static/js/md28.js"></script></body>
+</html>
