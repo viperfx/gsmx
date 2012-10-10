@@ -1,0 +1,7 @@
+Scrapy==0.14.4
+Twisted==12.2.0
+lxml==3.0alpha2
+requests==0.14.0
+simplejson==2.6.2
+w3lib==1.2
+
