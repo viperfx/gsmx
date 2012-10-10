@@ -1,81 +1,92 @@
-{
-    "AlbumID": 7161817,
-    "AlbumName": "Kill for Love",
-    "ArtistID": 20984,
-    "ArtistName": "Chromatics",
-    "SongID": 33463149,
-    "SongName": "Kill For Love",
-    "Url": "http://tinysong.com/MW2S"
-}{
-    "AlbumID": 1264393,
-    "AlbumName": "Pet Grief",
-    "ArtistID": 404316,
-    "ArtistName": "The Radio Dept.",
-    "SongID": 35362351,
-    "SongName": "I Wanted You to Feel the Same",
-    "Url": "http://tinysong.com/10VYn"
-}{
-    "AlbumID": 4380400,
-    "AlbumName": "In Evening Air",
-    "ArtistID": 698851,
-    "ArtistName": "Future Islands",
-    "SongID": 25822722,
-    "SongName": "Inch Of Dust",
-    "Url": "http://tinysong.com/HF8P"
-}{
-    "AlbumID": 6141745,
-    "AlbumName": "Within and Without",
-    "ArtistID": 1187703,
-    "ArtistName": "Washed Out",
-    "SongID": 31337051,
-    "SongName": "Soft",
-    "Url": "http://tinysong.com/HOgN"
-}{
-    "AlbumID": 6623112,
-    "AlbumName": "Last Night (Original Motion Picture Soundtrack)",
-    "ArtistID": 404087,
-    "ArtistName": "Bat for Lashes",
-    "SongID": 31786679,
-    "SongName": "Daniel",
-    "Url": "http://tinysong.com/Of6h"
-}{
-    "AlbumID": 7809227,
-    "AlbumName": "Mixed Emotions///eastvillageclub.tumblr.com",
-    "ArtistID": 1159528,
-    "ArtistName": "Tanlines",
-    "SongID": 35530078,
-    "SongName": "Abby",
-    "Url": "http://tinysong.com/13SLK"
-}{
-    "AlbumID": 3359329,
-    "AlbumName": "Movement (Collector's Edition)",
-    "ArtistID": 595,
-    "ArtistName": "New Order",
-    "SongID": 25940369,
-    "SongName": "Ceremony [Alternate 12\" Version]",
-    "Url": "http://tinysong.com/vT9L"
-}{
-    "AlbumID": 7573719,
-    "AlbumName": "Passage",
-    "ArtistID": 1667162,
-    "ArtistName": "Exitmusic",
-    "SongID": 36236530,
-    "SongName": "The Sea",
-    "Url": "http://tinysong.com/17A1g"
-}{
-    "AlbumID": 2784856,
-    "AlbumName": "The Warning",
-    "ArtistID": 3821,
-    "ArtistName": "Hot Chip",
-    "SongID": 9015011,
-    "SongName": "So Glad to See You",
-    "Url": "http://tinysong.com/iD7O"
-}{
-    "AlbumID": 7323507,
-    "AlbumName": "We All Shine",
-    "ArtistID": 1462940,
-    "ArtistName": "Team Ghost",
-    "SongID": 33940368,
-    "SongName": "A Glorious Time",
-    "Url": "http://tinysong.com/14BBv"
-}
+[
+    {
+        "SongID": 33463149,
+        "Url": "http://tinysong.com/MW2S",
+        "ArtistName": "Chromatics",
+        "AlbumName": "Kill for Love",
+        "AlbumID": 7161817,
+        "ArtistID": 20984,
+        "SongName": "Kill for Love"
+    },
+    {
+        "SongID": 35362351,
+        "Url": "http://tinysong.com/10VYn",
+        "ArtistName": "The Radio Dept.",
+        "AlbumName": "Pet Grief",
+        "AlbumID": 1264393,
+        "ArtistID": 404316,
+        "SongName": "I Wanted You to Feel the Same"
+    },
+    {
+        "SongID": 25822722,
+        "Url": "http://tinysong.com/HF8P",
+        "ArtistName": "Future Islands",
+        "AlbumName": "In Evening Air",
+        "AlbumID": 4380400,
+        "ArtistID": 698851,
+        "SongName": "Inch Of Dust"
+    },
+    {
+        "SongID": 31337051,
+        "Url": "http://tinysong.com/HOgN",
+        "ArtistName": "Washed Out",
+        "AlbumName": "Within and Without",
+        "AlbumID": 6141745,
+        "ArtistID": 1187703,
+        "SongName": "Soft"
+    },
+    {
+        "SongID": 31786679,
+        "Url": "http://tinysong.com/Of6h",
+        "ArtistName": "Bat for Lashes",
+        "AlbumName": "Last Night (Original Motion Picture Soundtrack)",
+        "AlbumID": 6623112,
+        "ArtistID": 404087,
+        "SongName": "Daniel"
+    },
+    {
+        "SongID": 35530078,
+        "Url": "http://tinysong.com/13SLK",
+        "ArtistName": "Tanlines",
+        "AlbumName": "Mixed Emotions///eastvillageclub.tumblr.com",
+        "AlbumID": 7809227,
+        "ArtistID": 1159528,
+        "SongName": "Abby"
+    },
+    {
+        "SongID": 25940369,
+        "Url": "http://tinysong.com/vT9L",
+        "ArtistName": "New Order",
+        "AlbumName": "Movement (Collector's Edition)",
+        "AlbumID": 3359329,
+        "ArtistID": 595,
+        "SongName": "Ceremony [Alternate 12\" Version]"
+    },
+    {
+        "SongID": 36236530,
+        "Url": "http://tinysong.com/17A1g",
+        "ArtistName": "Exitmusic",
+        "AlbumName": "Passage",
+        "AlbumID": 7573719,
+        "ArtistID": 1667162,
+        "SongName": "The Sea"
+    },
+    {
+        "SongID": 9015011,
+        "Url": "http://tinysong.com/8yTV",
+        "ArtistName": "Hot Chip",
+        "AlbumName": "The Warning",
+        "AlbumID": 2784856,
+        "ArtistID": 3821,
+        "SongName": "So Glad to See You"
+    },
+    {
+        "SongID": 33940368,
+        "Url": "http://tinysong.com/14BBv",
+        "ArtistName": "Team Ghost",
+        "AlbumName": "We All Shine",
+        "AlbumID": 7323507,
+        "ArtistID": 1462940,
+        "SongName": "A Glorious Time"
+    }
+]
