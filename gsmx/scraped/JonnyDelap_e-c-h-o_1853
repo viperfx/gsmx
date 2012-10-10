@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>Echo by 1126610390</title><link type="text/css" rel="stylesheet" href="https://d2b1xqaw2ss8na.cloudfront.net/static/css/jquery.jscrollpane28.css" /><link type="text/css" rel="stylesheet" href="https://d2b1xqaw2ss8na.cloudfront.net/static/css/main28.css" /><link type="text/css" rel="stylesheet" href="https://d2b1xqaw2ss8na.cloudfront.net/static/css/maindesk28.css" />
+</head>
+<body class="ab-control playlist view-list black">
+	<div id="outerWidgetContainer">
+	<div id="widgetContainer">
+	<div id="notifBar">
+	<p id="message"></p>
+	<div class="notifCloseButton"></div>
+</div><div class="player music-paused">
+	<div class="album-art-container clickable">
+		<div class="album-art">
+			<img class="art" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" index="-1"/>
+			<div class="clickable play-pause-btn"></div>
+		</div>
+	</div>
+	<div class="divider"></div>
+	<div class="meta">
+		<div class="titles">
+			<div class="track-name ellipsis" onClick="openContextInSpotify();">
+				mainTitle
+			</div>
+			<div class="artist-name ellipsis" rel="1126610390">
+				subTitle
+			</div>
+		</div>
+		<div class="right-bar-buttons">
+			<div class="action-buttons-container">
+				<div class="embed"/></div>
+				<div class="list"/></div>
+			</div>
+		</div>
+		<div class="progress-bar-container">
+			<div class="controls">
+				<div class="skip-back clickable"></div>
+				<div class="buffer">
+					<div class="seeker"></div>
+				</div>
+				<div class="skip-fwd clickable"></div>
+				<div class="time-spent">3:41</div>
+			</div>
+			<div class="context-title">
+				<div class="type-icon"></div>
+				<div class="title-content ellipsis">Echo</div>
+			</div>
+		</div>
+	</div>
+	<div class="logo clickable"></div>
+</div><div id="mainContainer" class="main-container"> 
+	<ul id="content" class="content">
+		<li class="track-48p1tayyXF3eh8E3Y4pXmK music-paused item playlist" rel="track" data-track="48p1tayyXF3eh8E3Y4pXmK" data-duration="4:15" data-duration-ms="255000" data-index="0" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/af7aa58b3bede383e07511806523119754601f9d">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:15">4:15</li>
+		<li class="track-title 48p1tayyXF3eh8E3Y4pXmK ellipsis" rel="1. Genesis">1. Genesis</li>
+		<li class="artist 48p1tayyXF3eh8E3Y4pXmK ellipsis" rel="Grimes" style="">Grimes</li>
+	</ul>
+</li><li class="track-3HckjwMkPcZbQglCAzQhNM music-paused item playlist" rel="track" data-track="3HckjwMkPcZbQglCAzQhNM" data-duration="5:45" data-duration-ms="344920" data-index="1" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/2b9ff0ca2b100a672bec517ecca6bb18b5bc2fd1">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="5:45">5:45</li>
+		<li class="track-title 3HckjwMkPcZbQglCAzQhNM ellipsis" rel="2. Sun">2. Sun</li>
+		<li class="artist 3HckjwMkPcZbQglCAzQhNM ellipsis" rel="Caribou" style="">Caribou</li>
+	</ul>
+</li><li class="track-37WssUIwxFxg785SVYSc6H music-paused item playlist" rel="track" data-track="37WssUIwxFxg785SVYSc6H" data-duration="6:11" data-duration-ms="371133" data-index="2" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/af7f4a0aaedb001f40d387f44d2f577b8f265466">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="6:11">6:11</li>
+		<li class="track-title 37WssUIwxFxg785SVYSc6H ellipsis" rel="3. The Keeper - Banks Remix">3. The Keeper - Banks Remix</li>
+		<li class="artist 37WssUIwxFxg785SVYSc6H ellipsis" rel="Bonobo, Andreya Triana" style="">Bonobo, Andreya Triana</li>
+	</ul>
+</li><li class="track-7MKQVfZ90eAe5JCA2Feiny music-paused item playlist" rel="track" data-track="7MKQVfZ90eAe5JCA2Feiny" data-duration="5:12" data-duration-ms="312349" data-index="3" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/a66e87652c1b18cc82cfec12a0d6b3aa38c3e9ec">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="5:12">5:12</li>
+		<li class="track-title 7MKQVfZ90eAe5JCA2Feiny ellipsis" rel="4. Black N Blue">4. Black N Blue</li>
+		<li class="artist 7MKQVfZ90eAe5JCA2Feiny ellipsis" rel="Whistla" style="">Whistla</li>
+	</ul>
+</li><li class="track-4cp9ouP8tOfMBzxgYYH7Ff music-paused item playlist" rel="track" data-track="4cp9ouP8tOfMBzxgYYH7Ff" data-duration="4:14" data-duration-ms="254000" data-index="4" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/a61c95129889866b36188c8f48ca10ee4dd36904">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:14">4:14</li>
+		<li class="track-title 4cp9ouP8tOfMBzxgYYH7Ff ellipsis" rel="5. Heart Shaped Locket">5. Heart Shaped Locket</li>
+		<li class="artist 4cp9ouP8tOfMBzxgYYH7Ff ellipsis" rel="Stumbleine" style="">Stumbleine</li>
+	</ul>
+</li><li class="track-7uKj0y3P3U0MaEqlm4r3vP music-paused item playlist" rel="track" data-track="7uKj0y3P3U0MaEqlm4r3vP" data-duration="4:21" data-duration-ms="261036" data-index="5" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/838a3302c37638e34474c91ec51e18434372fe8a">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:21">4:21</li>
+		<li class="track-title 7uKj0y3P3U0MaEqlm4r3vP ellipsis" rel="6. Champion Sound - Regal Safari Remix">6. Champion Sound - Regal Safari Remix</li>
+		<li class="artist 7uKj0y3P3U0MaEqlm4r3vP ellipsis" rel="Crystal Fighters" style="">Crystal Fighters</li>
+	</ul>
+</li><li class="track-3fGJT4qOPycsv2xXJ5E2VC music-paused item playlist" rel="track" data-track="3fGJT4qOPycsv2xXJ5E2VC" data-duration="4:31" data-duration-ms="271350" data-index="6" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/0a99a1235d1900bc71cf26b1e56650cfe7f695fa">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:31">4:31</li>
+		<li class="track-title 3fGJT4qOPycsv2xXJ5E2VC ellipsis" rel="7. SYH">7. SYH</li>
+		<li class="artist 3fGJT4qOPycsv2xXJ5E2VC ellipsis" rel="Egyptian Hip Hop" style="">Egyptian Hip Hop</li>
+	</ul>
+</li><li class="track-4GtN7yHlsvQanJfp2Qzw1A music-paused item playlist" rel="track" data-track="4GtN7yHlsvQanJfp2Qzw1A" data-duration="2:45" data-duration-ms="164640" data-index="7" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/f9e4ef4463a010825b1c2835b965de5f77b1ccef">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="2:45">2:45</li>
+		<li class="track-title 4GtN7yHlsvQanJfp2Qzw1A ellipsis" rel="8. Zodiac Shit">8. Zodiac Shit</li>
+		<li class="artist 4GtN7yHlsvQanJfp2Qzw1A ellipsis" rel="Flying Lotus" style="">Flying Lotus</li>
+	</ul>
+</li><li class="track-3LIh1hLStSPBcvGQoItHVh music-paused item playlist" rel="track" data-track="3LIh1hLStSPBcvGQoItHVh" data-duration="5:37" data-duration-ms="337000" data-index="8" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/99e7bfb24ea12f9ce9ab55dc773beaf2982ade0d">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="5:37">5:37</li>
+		<li class="track-title 3LIh1hLStSPBcvGQoItHVh ellipsis" rel="9. Change - A Made Up Sound Remix">9. Change - A Made Up Sound Remix</li>
+		<li class="artist 3LIh1hLStSPBcvGQoItHVh ellipsis" rel="Commix" style="">Commix</li>
+	</ul>
+</li><li class="track-0OYJoVpyC1sPMd6VZ304b3 music-paused item playlist" rel="track" data-track="0OYJoVpyC1sPMd6VZ304b3" data-duration="4:52" data-duration-ms="292000" data-index="9" data-ca="https://d3rt1990lpmkn.cloudfront.net/640/3f81d9e14d1f3d7acc94496b4748abfce41b3ccd">
+	<div class="ppbtn"></div>
+	<ul class="track-info">
+		<li class="duration" rel="4:52">4:52</li>
+		<li class="track-title 0OYJoVpyC1sPMd6VZ304b3 ellipsis" rel="10. 128 Harps">10. 128 Harps</li>
+		<li class="artist 0OYJoVpyC1sPMd6VZ304b3 ellipsis" rel="Four Tet" style="">Four Tet</li>
+	</ul>
+</li>	</ul>
+</div><div id="engageView" class="music-paused">
+	<div class="shelf"></div>
+	<div class="scroller">
+		<div class="cover-art-container">
+			<div class="left">
+				<div class="album-art-container">
+					<img class="album-art fixed" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="album-art slide" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="contact-shadow" src=""/>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="album-art-container">
+					<img class="album-art fixed" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="album-art slide" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="contact-shadow" src=""/>
+					<img class="covergloss" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/covergloss.png" data-index="-1"/>
+				</div>
+			</div>
+			<div class="right">
+				<div class="album-art-container">
+					<img class="album-art fixed" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="album-art slide" src="https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png" data-index="-1"/>
+					<img class="contact-shadow" src=""/>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="overlays">
+	<div class="overlays-main-container">
+		<div class="overlay-close-button"></div>
+		<div class="overlays-container">
+			<div class="overlay-item-0 overlay-common">
+				<div class="overlay-title">Listen to millions of songs for free!</div>
+				<div class="install-step-button-container">
+					<div class="download-spotify primary-button">Download Spotify</div>
+					<div class="ihavespotify secondary-button">I have Spotify</div>
+				</div>
+				<div class="terms-and-conditions">By downloading Spotify, you agree to Spotify&#39;s <a href="#" class="tc-link">terms &amp; conditions</a> and  <a href="#" class="pp-link">privacy policy</a>.</div>
+			</div>
+			<div class="overlay-item-1 overlay-common">
+				<div class="overlay-title">Spotify failed to launch.</div>
+				<div class="install-step-button-container">
+					<div class="download-spotify primary-button">Download Spotify</div>
+					<div class="helpsupport secondary-button">Help/Support</div>
+				</div>
+				<div class="terms-and-conditions">By downloading Spotify, you agree to Spotify&#39;s <a href="#" class="tc-link">terms &amp; conditions</a> and  <a href="#" class="pp-link">privacy policy</a>.</div>
+			</div>
+			<div class="overlay-item-2 overlay-common">
+				<div style="margin-top:8px;">
+					<div class="embed-container">
+						<div class="overlay-title">Embed code:</div>
+						<div class="input-container"><input class="text-input" type="text" id="embedcodeval"/></div>
+					</div>
+					<div class="embed-container">
+						<div class="overlay-title">Get the link:</div>
+						<div class="input-container"><input class="text-input" type="text" id="copyLinkVal"/></div>
+					</div>
+					<div class="terms-and-conditions">By embedding you agree to the <a href="#" class="embed-tc-link">Terms</a>.</div>
+				</div>
+			</div>
+			<div class="overlay-item-3 overlay-common">
+				<div class="overlay-title">Sorry, we&#39;re not available where you are. Leave your email to stay tuned for good news.</div>
+				<div class="email-controls">
+					<div class="ihavespotify secondary-button">I have Spotify</div>
+					<input class="text-input-email" type="text" placeholder="johndoe@gmail.com"></input>
+					<div class="submitEmail primary-button">Send</div>
+				</div>
+				<div class="sadguy"></div>
+			</div>
+		</div>
+	</div>
+</div>	</div>
+	</div>
+	<script>
+		var context='spotify:user:1126610390:playlist:4jtD3r14PPl7ZEGTaJjRf5',
+			contextType = 'playlist',
+			dataContext = 'spotify:user:1126610390:playlist:4jtD3r14PPl7ZEGTaJjRf5',
+			tokenData = 'M1Nwb3RpZnkgIDY4NzE5NDc2NzM2IDEzNDk4OTU5OTIgMTM0OTkyNDc5MiAAALeVcbyJz3UasLfeDj1RygRHnGEb',
+			isHandheldDevice = false,
+			renderListView = true,
+			theme = 'black',
+			testLeg = 'control',
+			defaultCoverImg = 'https://d2b1xqaw2ss8na.cloudfront.net/static/img/defaultCoverL.png',
+			shadowWhiteImg = 'https://d2b1xqaw2ss8na.cloudfront.net/static/img/Shadows.png',
+			shadowBlackImg = 'https://d2b1xqaw2ss8na.cloudfront.net/static/img/Shadows-Black.png',
+			spotifyAvailableInCountry = true,
+			frameReferrer = "http:\/\/designers.mx\/post\/detail\/JonnyDelap\/e-c-h-o\/1853\/";
+		if( frameReferrer == '' ) {
+			frameReferrer = document.referrer || '';
+		}
+	</script>
+	<script src="https://d2b1xqaw2ss8na.cloudfront.net/static/js/md28.js"></script></body>
+</html>
