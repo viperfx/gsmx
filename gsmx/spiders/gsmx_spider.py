@@ -22,10 +22,12 @@ class GsmxSpider(BaseSpider):
         dir_name = os.path.abspath("gsmx/scraped/%s" % filename)
         hxs = HtmlXPathSelector(response)
         spotify_data = hxs.select('//div[@class="track-list-wrap"]/@data-spotify-url').extract()
-        # Sample - https://embed.spotify.com/?uri=spotify:user:123512974:playlist:6lLLYkjRdusoZGDsDJAKjy
+        page_title = hxs.select('//title/text()').extract()
+    # Sample - https://embed.spotify.com/?uri=spotify:user:123512974:playlist:6lLLYkjRdusoZGDsDJAKjy
         spotify_url = spotify_data[0]
         response = Request(spotify_url, callback=self.get_playlist)
         response.meta['dir'] = dir_name
+	response.meta['title'] = page_title
         return response
     def get_playlist(self, response):
     	dir_name = response.meta['dir']
@@ -35,7 +37,7 @@ class GsmxSpider(BaseSpider):
         playlist_data = []
         for song in playlist:
         	item = gsMix()
-        	item['name'] = dir_name.split('/')[-1]
+        	item['name'] = response.meta['title'][0]
         	item['title'] = song.select('ul/li[2]/text()').extract()[0][3:]
         	item['artist'] = song.select('ul/li[3]/text()').extract()[0]
         	item['query'] = (item['title']+' '+item['artist']).replace(" ", "+")
