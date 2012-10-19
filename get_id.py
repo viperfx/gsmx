@@ -1,4 +1,5 @@
 import json
+import sys
 from pprint import pprint
 import requests
 from scrapy.spider import BaseSpider
@@ -14,7 +15,11 @@ def main():
 	grooveshark.authenticate_user(YOUR_USERNAME, YOUR_PASSWORD)
 	songIDs = []
 	songdata = []
-	url = "http://designers.mx/post/detail/Clemensposch/hope-love/1845/"
+	try:
+		url = sys.argv[1]
+	except:
+		print "provide url with trailing slash"
+		exit()
 	user = url.split("/")[-4]
 	mix = url.split("/")[-3]
 	mix_id = url.split("/")[-2]
@@ -26,31 +31,30 @@ def main():
 	# Open json data to get the search queries for tinysong api
 	json_data = open(filename)
 	data = json.load(json_data)
+	json_data.close()
 	# if playlist not created already, Iterate through the json file and request the API with the formed query
 	if os.path.isfile('playlist_'+filename) == False:
 		for item in data:
-			query = item['query']
-			r = requests.get('http://tinysong.com/b/%s?format=json&key=0fc107bfb325fdb787d837b406d80d04' % (query))
-			if r.json != []:
-				print "Found song: %s " % r.json['SongName']
-				songIDs.append(r.json['SongID'])
-				songdata.append(r.json)
+			query = item['query'].strip('?')
+			resp = requests.get('http://tinysong.com/b/%s?format=json&key=0fc107bfb325fdb787d837b406d80d04' % (query))
+			if resp.json != []:
+				print "Found song: %s " % resp.json['SongName']
+				songIDs.append(resp.json['SongID'])
+				songdata.append(resp.json)
 		playlist = open('playlist_'+filename, 'w')
 		playlist.write(simplejson.dumps(songdata, indent=4))
 		playlist.close()
-	json_data.close()
-	if os.path.isfile('playlist_'+filename) == False:
-		pass
 	else:
-		data = open('playlist_'+filename, 'r').read()
+		playlist = open('playlist_'+filename, 'r').read()
 		# print data
-		songdata = simplejson.loads(data)
+		songdata = simplejson.loads(playlist)
 		for item in songdata:
 			songIDs.append(item['SongID'])
 	print songIDs
+	print data[0]['name']
 	user_input = raw_input("Do you want to create a playlist on grooveshark? y/n ")
 	if user_input == 'y':
-		resp = grooveshark.api_call('createPlaylist', {'name':'Designs.MX %s %s' % (user, mix),'songIDs':songIDs})
+		resp = grooveshark.api_call('createPlaylist', {'name':data[0]['name'],'songIDs':songIDs})
 		print resp
 if __name__ == '__main__':
 	main()
