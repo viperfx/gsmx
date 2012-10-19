@@ -5,7 +5,24 @@ A quick env to convert a mix on designers.mx to grooveshark using scrapy and Tin
 
 Usage
 ====
-`python get_id.py`
+`python get_id.py [url]`
+
+e.g. - `python get_id.py http://designers.mx/post/detail/isaacesquibel/keep-your-head-up-keep-your-heart-strong/934/`
+OUTPUT
+```
+Found song: Parix 
+Found song: Dear God (Sincerely M.O.F.) 
+Found song: Glowing Mouth 
+Found song: You and I 
+Found song: Black Water 
+Found song: Keep Your Head Up 
+Found song: Scar 
+Found song: Lakehouse 
+Found song: Montana 
+[36124685, 26043750, 33124889, 31337092, 31359796, 33316411, 33202806, 33521029, 30795713]
+DesignersMX: Keep Your Head Up, Keep Your Heart Strong by isaacesquibel
+Do you want to create a playlist on grooveshark? y/n y
+```
 
 Edit `url` in get_id.py variable to get ID's working for a different playlist.
 Edit grooveshark.py to add your KEY and SECRET provided to you by grooveshark
